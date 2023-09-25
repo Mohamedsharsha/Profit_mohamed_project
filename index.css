@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+button {
+    padding: 150px;
+    background-color: rgb(239, 84, 28);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+button:hover{
+    background-color:rgb(34, 122, 237);
+}
+.score{
+    padding: 10px 150px;
+    background-color: rgb(34, 122, 237);
+    border: 2px solid #000;
+    color: #fff;
+}
+.btnn{
+    margin-top: 15%;
+}
+
+@media  (min-width:0) and (max-width:912px) {
+#btn{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+   padding: 0;
+   height: 200px;
+ 
+}
+.btnn{
+    margin-top: 50%;
+}
+#score{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
+}
+#reset{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
+}
+}
